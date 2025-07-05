@@ -3,7 +3,7 @@ from typing import Callable, List
 
 import pygame
 
-from stateful_component.stateful_component import StatefulComponent
+from ..stateful_component.stateful_component import StatefulComponent
 
 @dataclass
 class MenuEntryAction():
